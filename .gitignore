@@ -1,0 +1,22 @@
+# 個人資料：絕對不要把自己的劃線筆記 CSV 傳上去
+*.csv
+!sample/*.csv
+readmoo-notes/
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# 環境變數 / 設定檔（如果之後有存 token 之類的東西）
+.env
+.env.*
+
+# 作業系統雜項
+.DS_Store
+Thumbs.db
